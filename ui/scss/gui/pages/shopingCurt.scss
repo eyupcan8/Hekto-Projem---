@@ -1,0 +1,234 @@
+$textColor: #151875;
+$fontFirst: 'Josefin Sans', sans-serif;
+$fontSecond: 'Lato', sans-serif;
+
+.shoppingCurt {
+    .curtBtn {
+        .btnCurt {
+
+            width: 134px;
+            height: 39px;
+            border-radius: 2px;
+            background-color: #FB2E86;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: $fontFirst;
+        }
+
+    }
+
+    thead {
+        th {
+            color: #1D3178;
+            font-size: 20px;
+            font-family: $fontFirst;
+        }
+    }
+
+    tbody {
+        tr {
+            vertical-align: middle;
+
+            .curtPrice {
+                font-size: 14px;
+                font-family: $fontFirst;
+                color: $textColor;
+                font-weight: 400;
+            }
+        }
+
+        .productTable {
+            width: fit-content;
+            gap: 17px;
+
+            .curtImg {
+                &:hover {
+                    background-image: url('../images/exit.png');
+
+                }
+            }
+
+            .curtText {
+                h5 {
+                    font-size: 14px;
+                    color: #000;
+                    font-family: $fontFirst;
+                    font-weight: 400;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: #A1A8C1;
+                    font-weight: 400;
+                    font-family: $fontFirst;
+                }
+            }
+        }
+
+        .quantity-box {
+            .decr {
+                span {
+                    color: #BEBFC2;
+                }
+            }
+
+            .incr {
+                span {
+                    color: #BEBFC2;
+                }
+            }
+
+            display: flex;
+            max-width: fit-content;
+            justify-content: center;
+
+            input {
+                outline: none;
+                border: none;
+
+                &::-webkit-outer-spin-button,
+                &::-webkit-inner-spin-button {
+                    appearance: none;
+                    margin: 0;
+                }
+
+                text-align: center;
+                max-width: 35px;
+                background: #F0EFF2;
+                color: #BEBFC2;
+            }
+
+            button {
+                user-select: none;
+                font-weight: 400;
+                background: #E7E7EF;
+                cursor: pointer;
+                border: 0;
+                transition: background 100ms;
+
+                &:hover {
+                    background: #eee;
+                }
+            }
+        }
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 20px;
+        font-family: $fontFirst;
+        font-weight: 600;
+        color: #1D3178;
+        margin-top: 12px;
+    }
+
+    .curtCard {
+        height: 280px;
+        border-radius: 3px;
+        background: #F4F4FC;
+        padding: 20px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .totalText {
+            border-bottom: 3px solid #E8E6F1;
+            padding-bottom: 13px;
+
+            span {
+
+                &:nth-child(1) {
+                    color: #1D3178;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: $fontSecond;
+                }
+
+                &:nth-child(2) {
+                    color: #15245E;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: $fontSecond;
+                }
+            }
+        }
+
+
+
+        .form-check-input {
+            width: 10px;
+            height: 10px;
+        }
+
+        .form-check-label {
+            font-weight: 400;
+            font-size: 12px;
+            color: #8A91AB;
+
+        }
+
+        .form-check-input:checked {
+            background-color: #19D16F;
+            border-color: #19D16F;
+        }
+
+        .form-check-input:focus {
+            box-shadow: none !important;
+            border-color: #fff !important;
+        }
+
+        .formBtn {
+            width: 288px;
+            height: 40px;
+            border-radius: 3px;
+            background: #19D16F;
+            font-size: 14px;
+            font-family: $fontSecond;
+            font-weight: 600;
+        }
+
+    }
+
+    .curtCard2 {
+        height: 290px;
+        border-radius: 3px;
+        background: #F4F4FC;
+        padding: 20px;
+        gap: 26px;
+        display: flex;
+        flex-direction: column;
+
+        .form-select {
+            background: #f4f4fc !important;
+            border: unset;
+            border-bottom: 1px solid #C7CEE4;
+            padding-bottom: 13px;
+            font-size: 14px;
+            color: #C5CBE3 ;
+            font-weight: 600;
+            font-family: $fontFirst;
+            option {
+            font-size: 14px;
+            color: #C5CBE3 ;
+            font-weight: 600;
+            font-family: $fontFirst;
+           }
+
+        }
+
+        .form-select:focus {
+            box-shadow: none !important;
+            border-color: #fff !important;
+        }
+
+        .calculateBtn {
+            width: 188px;
+            height: 41px;
+            border-radius: 2px;
+            background: #FB2E86;
+            font-size: 16px;
+            font-family: $fontFirst;
+            font-weight: 600;
+        }
+    }
+}

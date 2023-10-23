@@ -1,0 +1,135 @@
+$(document).ready(function(){
+  console.log(document.querySelector('.owl-dots'))
+  $('#owlSlider').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      dots:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+      }
+  })
+
+  $('#owlCard').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      dots:true,
+      responsive:{
+          0:{
+              items:2
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+      }
+  })
+  $('.owlCards').owlCarousel({
+      loop:true,
+      margin:20,
+      dots:true,
+      mouseDrag:false,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+      }
+  })
+  $('#owlshop').owlCarousel({
+    loop:true,
+    margin:20,
+    dots:true,
+    mouseDrag:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('.owl-carouselsss').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('#deneee').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('#owlBlog').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    mouseDrag:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+
+});
+
+const quantityBoxes = document.querySelectorAll(".quantity-box");
+quantityBoxes.forEach((e) => {
+    const input = e.querySelector("input");
+    e.querySelector(".incr").addEventListener("click", () => {
+        input.value = Number(input.value) + 1;
+    });
+    e.querySelector(".decr").addEventListener("click", () => {
+        if (Number(input.value) > 1) input.value = Number(input.value) - 1;
+    });
+})

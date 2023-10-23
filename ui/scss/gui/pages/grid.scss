@@ -1,0 +1,221 @@
+$textColor: #151875;
+$fontFirst: 'Josefin Sans', sans-serif;
+$fontSecond: 'Lato', sans-serif;
+
+.gridShop {
+  height: 286px;
+  background: #F6F5FF;
+
+  h1 {
+    color: #101750;
+    font-size: 36px;
+    font-family: $fontFirst;
+
+  }
+
+  .breadText {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: $fontSecond;
+    color: #000;
+  }
+
+  .active {
+    color: #FB2E86;
+    font-family: $fontSecond;
+    font-size: 16px;
+  }
+}
+
+.lisFilter {
+  .fashionItem {
+    h2 {
+      font-size: 22px;
+      color: $textColor;
+      font-weight: 600;
+      font-family: $fontFirst;
+      margin: 0;
+    }
+
+    span {
+      font-size: 12px;
+      color: #8A8FB9;
+      font-family: $fontSecond;
+      font-weight: 400;
+    }
+  }
+
+  .fashionPage {
+    gap: 14px;
+
+    @include tablet {
+      white-space: nowrap;
+      width: 100%;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      flex-flow: row;
+      margin-top: 15px;
+    }
+
+    span {
+      font-size: 16px;
+      color: #3F509E;
+      font-weight: 400;
+      margin-right: 6px;
+    }
+
+    .perPage {
+      input {
+        width: 55px;
+        height: 25px;
+        border: 1px solid #E7E6EF;
+      }
+    }
+
+    .btn-group {
+      .btn-sm {
+        border: 1px solid #e7e6ef;
+        width: 93px;
+        height: 25px;
+        border-radius: unset;
+
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .viewPage {
+      .hekto {
+        font-size: 12px;
+      }
+
+      input {
+        width: 162px;
+        height: 25px;
+        border: 1px solid #e7e6ef;
+      }
+    }
+  }
+}
+
+.mixShop {
+
+  .sliderİmg {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F7FB;
+
+    img {
+      width: 114px !important;
+      height: 144px;
+      display: flex !important;
+    }
+
+
+
+  }
+
+  .card1 {
+
+    .cardIcon {
+      display: none;
+      position: absolute;
+      flex-direction: column;
+      margin-top: 10%;
+      font-size: 15px;
+
+    }
+
+    &:hover {
+      .sliderİmg{
+        background: #EBF4F3;
+        transition: all .5s ease-in-out;
+
+      }
+
+      .cardIcon {
+      
+        display: flex;
+        z-index: 1;
+
+
+        li {
+          display: flex;
+          width: 30px;
+          height: 30px;
+          border-radius: 200px;
+          align-items: center;
+          justify-content: center;
+          transition: all .5s ease-in-out;
+        
+
+          &:hover {
+            background: #FFF;
+            filter: drop-shadow(0px 8px 40px rgba(49, 32, 138, 0.05));
+          }
+        }
+
+
+      }
+    }
+
+    .cardText {
+      a {
+        margin-bottom: 30px;
+        color: $textColor;
+        font-size: 18px;
+        font-family: $fontFirst;
+        font-weight: 600;
+      }
+
+      .priceMix{
+        .oldPrice {
+          font-size: 14px;
+          font-family: 'Josefin Sans', sans-serif;
+          color: $textColor;
+      }
+  
+      .newPrice {
+          color: #FB2E86;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 12px;
+          text-decoration: line-through;
+  
+      }
+      }
+    }
+
+    .owlCards {
+
+
+      .owl-dots {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 35%;
+
+        .owl-dot {
+          &:nth-child(1) span {
+            background: #DE9034;
+          }
+
+          &:nth-child(2) span {
+            background: #EC42A2;
+          }
+
+          &:nth-child(3) span {
+            background: #8568FF;
+          }
+
+        
+        }
+      }
+
+
+    }
+  }
+
+}

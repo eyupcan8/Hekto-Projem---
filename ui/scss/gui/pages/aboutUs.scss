@@ -1,0 +1,16 @@
+.aboutUs{
+    .abotUsimg{
+        &:hover{
+            box-shadow: -20px 18px 5px 6px #2B3CAB;
+            transition: .5s ease-in;
+        }
+    }
+    .aboutUsText{
+        h3{
+            font-weight: 600;
+            font-size: 36px;
+            font-family: $fontFirst;
+            color: $textColor;
+        }
+    }
+}

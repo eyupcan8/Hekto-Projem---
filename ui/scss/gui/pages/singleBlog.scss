@@ -1,0 +1,95 @@
+
+
+.pageMore{
+    span{
+        height: 141px;
+    display: flex;
+    background: #FAFAFB;
+    padding: 28px;
+    border-left: 2px solid #FC45A0;
+    color: #969CB4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $fontFirst;
+    }
+}
+.pagePlay{
+    display: flex;
+    gap: 32px;
+}
+.pageCard{
+    .playText{
+        color: #8A8FB9;
+        font-size: 16px;
+        font-family: $fontSecond;
+         font-weight: 400;   
+    }
+
+    .singleCard{
+        h3{
+            font-size: 20px;
+            font-family: $fontFirst;
+            font-weight: 400;
+        }
+        .icon-star{
+            color: rgba(255, 214, 89, 1);
+            font-size: 12px;
+            &:last-child{
+                color: rgba(178, 178, 178, 1);
+            }
+        }
+    }
+}
+.paginationn{
+    background: rgba(247, 248, 251, 1);
+    height: 45px;
+    .left{
+        
+        a{
+            color: #8A8FB9;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 18px;
+            color: rgba(138, 143, 185, 1);
+        }
+    }
+    .right{
+        
+        a{
+            color: #8A8FB9;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 18px;
+            color: rgba(138, 143, 185, 1);
+        }
+    }
+
+}
+
+.cardSingle{
+    .sapien{
+        height: 137px;
+        background: #FFF;
+        box-shadow: 0px 0px 17.00383px 0px rgba(0, 0, 0, 0.25);
+        .sapienText{
+            h3{
+                color: #363385;
+                font-size: 18px;
+                font-family: $fontFirst;
+                margin: 0;
+            }
+            span{
+                font-size: 12px;
+                color: #A3A2B6;
+                font-family: $fontSecond;
+            }
+            .sapienTitle{
+                gap: 31px;
+            }
+        }
+    }
+}

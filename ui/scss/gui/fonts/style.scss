@@ -1,0 +1,156 @@
+@import "variables";
+
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('../fonts/icons/#{$icomoon-font-family}.eot?gop7q3');
+  src:  url('../fonts/icons/#{$icomoon-font-family}.eot?gop7q3#iefix') format('embedded-opentype'),
+    url('../fonts/icons/#{$icomoon-font-family}.ttf?gop7q3') format('truetype'),
+    url('../fonts/icons/#{$icomoon-font-family}.woff?gop7q3') format('woff'),
+    url('../fonts/icons/#{$icomoon-font-family}.svg?gop7q3##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.hekto {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-up-arrow-2 {
+  &:before {
+    content: $icon-up-arrow-2; 
+  }
+}
+.icon-up-arrow-1 {
+  &:before {
+    content: $icon-up-arrow-1; 
+  }
+}
+.icon-down-angle {
+  &:before {
+    content: $icon-down-angle; 
+  }
+}
+.icon-Group6 {
+  &:before {
+    content: $icon-Group6; 
+  }
+}
+.icon-Vector {
+  &:before {
+    content: $icon-Vector; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check; 
+  }
+}
+.icon-exit {
+  &:before {
+    content: $icon-exit; 
+  }
+}
+.icon-grid-view-solid {
+  &:before {
+    content: $icon-grid-view-solid; 
+  }
+}
+.icon-Group {
+  &:before {
+    content: $icon-Group; 
+  }
+}
+.icon-heart {
+  &:before {
+    content: $icon-heart; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-message {
+  &:before {
+    content: $icon-message; 
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone; 
+  }
+}
+.icon-salebox {
+  &:before {
+    content: $icon-salebox; 
+  }
+}
+.icon-search-plus {
+  &:before {
+    content: $icon-search-plus; 
+  }
+}
+.icon-shop {
+  &:before {
+    content: $icon-shop; 
+  }
+}
+.icon-shop-regular {
+  &:before {
+    content: $icon-shop-regular; 
+  }
+}
+.icon-solid_list {
+  &:before {
+    content: $icon-solid_list; 
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-star; 
+  }
+}
+.icon-starg {
+  &:before {
+    content: $icon-starg; 
+  }
+}
+.icon-surf {
+  &:before {
+    content: $icon-surf; 
+  }
+}
+.icon-surf_calendar {
+  &:before {
+    content: $icon-surf_calendar; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user; 
+  }
+}
+

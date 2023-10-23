@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/styles/hekto.min.css" />
+  <title></title>
+</head>
+
+<body>
+  <header class="fixed-top navbarBgc position-sticky">
+    <nav class="navbar navbarTop navbar-expand-lg mb-2 p-0" id="navbar">
+      <div class="container">
+        <div class="topLeft d-flex">
+          <a class="text-decoration-none me-4" href="#"> <span class="hekto icon-message me-2"></span>
+            eyupcan.altunay@gmail.com</a>
+          <a class="text-decoration-none" href="#"> <span class="hekto icon-phone me-2"></span>(1234)567890</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+          <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
+        </button>
+        <div class="offcanvas offcanvas-start navbarDrop" data-bs-hideresize="true" tabindex="-1"
+          id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasLabel">HEKTO</h5>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  English
+                </a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  USD
+                </a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Login<span class="hekto icon-user ms-2"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Wishlist <span class="hekto icon-heart ms-2"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><span class="hekto icon-shop ms-4"></span></a>
+              </li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbarMid navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">HEKTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control borderMid w-auto" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline midSearch" type="submit"><span class="hekto icon-Vector"></span></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="gridShop d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Product Details</h1>
+          <nav style="--bs-breadcrumb-divider: '.';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item "><a class="text-decoration-none breadText" href="#">Home</a></li>
+              <li class="breadcrumb-item breadText" aria-current="page">Pages</li>
+              <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="prouctDetails">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-between detailPhoto mt-5 mb-5">
+          <div class="mini d-flex flex-column gap-2">
+            <figure class="m-0"><img src="./assets/images/minibag.png" alt=""></figure>
+            <figure class="m-0"><img src="./assets/images/minibag1.png" alt=""></figure>
+            <figure class="m-0"><img src="./assets/images/minibag2.png" alt=""></figure>
+          </div>
+          <div class="big">
+            <figure class="m-0"><img src="./assets/images/bigbag.png" alt=""></figure>
+          </div>
+        </div>
+        <div class="col-md-5 mt-5 mb-5 offset-1">
+          <div class="playwood">
+          <h2>Playwood arm chair</h2>
+          <div class="star">
+            <span class="hekto icon-star"></span>
+            <span class="hekto icon-star"></span>
+            <span class="hekto icon-star"></span>
+            <span class="hekto icon-star"></span>
+            <span class="hekto icon-star"></span>
+          </div>
+          <div class="price">
+            <span class="oldPrice">$42.00</span>
+            <span class="newPrice">$65.00</span>
+          </div>
+          <h3>Color</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus porttitor purus, et volutpat sit.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="miniRectangle">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-3 mb-5 d-flex justify-content-center">
+          <img class="img-fluid" src="././assets/images/miniretangle.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footerBgc">
+    <div class="container mt-4 p-4">
+      <div class="row">
+        <div class="col-md-4 mt-4 mb-4">
+          <h3>HEKTO</h3>
+          <div class="sociall mt-4">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control formMail" placeholder="Enter Email Address"
+                aria-label="Enter Email Address" aria-describedby="button-addon2">
+              <button class="btn text-white btnFooter" type="button" id="button-addon2">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 mb-4 ">
+          <h5 class="">Catagories</h5>
+          <div class="link">
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none" href="#">Laptops & Computers</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Cameras & Photography</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Smart Phones & Tablets</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Video Games & Consoles</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Waterproof Headphones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col mt-4 mb-4">
+          <h5 class="">Customer Care</h5>
+          <div class="link">
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none " href="#">My Account</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Discount</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Returns</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Orders History</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Order Tracking</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col mt-4 mb-4">
+          <h5 class="">Pages</h5>
+          <div class="link">
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none">Blog</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Browse the Shop</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#"> Category</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Pre-Built Pages</a>
+              </li>
+              <li>
+                <a class="text-decoration-none " href="#">Visual Composer Elements</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section class="bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-end align-items-center mt-3">
+          <h6 class="copyR">Copyright 2023 © All Right Reserved Design by Rometheme</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="shopList">
+    <div class="container">
+      <div class="row">
+        <div class="card col-md-12">
+          <input type="radio" name="select" id="slide_1" checked>
+          <input type="radio" name="select" id="slide_2">
+          <input type="radio" name="select" id="slide_3">
+          <input type="checkbox" id="slideImg">
+        
+          <div class="slider">
+            <label for="slide_1" class="slide slide_1"></label>
+            <label for="slide_2" class="slide slide_2"></label>
+            <label for="slide_3" class="slide slide_3"></label>
+          </div>
+        
+          <div class="inner_part">
+            <label for="slideImg" class="img">
+              <img class="img_1" src="././assets/images/blogimage.png">
+            </label>
+            <div class="content content_1">
+              <div class="title">İstanbul</div>
+              <div class="text">
+                Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is one of the greatest cities in the world.
+              </div>
+              <button>Read More</button>
+            </div>
+          </div>
+        
+          <div class="inner_part">
+            <label for="slideImg" class="img">
+              <img class="img_2" src="././assets/images/blogimage.png">
+            </label>
+            <div class="content content_2">
+              <div class="title">Ankara</div>
+              <div class="text">
+                Ankara is Turkey's beating heart, second largest city, located in the Central Anatolia region and home to the Grand National Assembly of Turkey.
+              </div>
+              <button>Read More</button>
+            </div>
+          </div>
+        
+          <div class="inner_part">
+            <label for="slideImg" class="img">
+              <img class="img_3" src="././assets/images/blogimage.png">
+            </label>
+            <div class="content content_3">
+              <div class="title">İzmir</div>
+              <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
+              </div>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <section class="shopList mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between">
+          <div class="col-md-4 w-auto">
+            <div class="imgShop">
+              <figure><img class="img-fluid" src="././assets/images/Rectanglechair.png" alt="#"></figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="shopTitle">
+              <h3>Accumsan tincidunt</h3>
+            </div>
+            <ul class="list-unstyled">
+              <li class="d-flex gap-3">
+                <span>$26.00</span>
+                <span class="priceOld">$52.00</span>
+                <div class="star">
+                  <span class="hekto icon-star"></span>
+                  <span class="hekto icon-star"></span>
+                  <span class="hekto icon-star"></span>
+                  <span class="hekto icon-star"></span>
+                  <span class="hekto icon-star"></span>
+                </div>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in
+                  justo.</p>
+              </li>
+              <li class="d-flex gap-3">
+                <span class="hekto icon-search-plus"></span>
+                <span class="hekto icon-shop-regular"></span>
+                <span class="hekto icon-heart"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="./assets/scripts/hekto.lib.min.js"></script>
+  <script src="./assets/scripts/hekto.app.min.js"></script>
+
+
+</body>
+
+</html>

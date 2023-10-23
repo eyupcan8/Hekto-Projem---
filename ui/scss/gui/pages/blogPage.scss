@@ -1,0 +1,261 @@
+$textColor: #151875;
+$fontFirst: 'Josefin Sans', sans-serif;
+$fontSecond: 'Lato', sans-serif;
+
+.blogPage {
+    .pagination {
+        gap: 36px;
+
+        .activee {
+            .page-link {
+                font-size: 16px;
+                color: #E0D3F5;
+                font-family: $fontSecond;
+                text-align: center;
+                background: #FB2CA8;
+            }
+        }
+
+        li {
+            width: 32px;
+            height: 24px;
+            background: #E0D3F5;
+
+            a {
+                font-size: 16px;
+                color: #E0D3F5;
+                font-family: $fontSecond;
+                text-align: center;
+            }
+        }
+    }
+
+    .pageCard {
+        .pageMore {
+            h6 {
+                font-size: 30px;
+                font-family: $fontFirst;
+                color: $textColor;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: $fontSecond;
+                color: #8A8FB9;
+                line-height: 25.6px;
+                font-weight: 400;
+
+
+            }
+
+            a {
+                font-size: 18px;
+                color: $textColor;
+                font-family: $fontSecond;
+            }
+
+            .elipsPage {
+                width: 5px;
+                height: 5px;
+                background: #FB2E86;
+                border-radius: 100px;
+
+            }
+        }
+
+        .pageImg {
+            .pageDate {
+                .surfColor {
+                    color: #FB2E86;
+                    font-size: 11px;
+                }
+
+                .calendarColor {
+                    color: #FFA454;
+                    font-size: 11px;
+                }
+
+                .saber {
+                    border-radius: 2px;
+                    background: #FFE7F9;
+                    width: 127px;
+                    height: 23px;
+                    text-align: center;
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $textColor;
+                        font-family: $fontFirst;
+
+                    }
+                }
+
+                .saberColor {
+                    width: 127px;
+                    height: 23px;
+                    border-radius: 2px;
+                    background: #FFECE2;
+                    text-align: center;
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $textColor;
+                        font-family: $fontFirst;
+                    }
+                }
+            }
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+        color: $textColor;
+        font-weight: 600;
+        font-family: $fontFirst;
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+
+    .searchBlog {
+
+        .input-group {
+            input {
+                position: relative;
+                font-size: 14px;
+                color: rgba(21, 24, 117, 0.1);
+                font-family: $fontSecond;
+                border-radius: 3px;
+                border: 1px solid #BDBDD8;
+            }
+
+            span {
+                position: absolute;
+                right: 12%;
+                bottom: 30%;
+                font-size: 16px;
+                color: #CBCBE0;
+            }
+        }
+
+    }
+
+    .blogCategories {
+        grid-template-columns: auto auto;
+        display: grid;
+        grid-gap: 8px;
+
+        .active {
+            font-size: 14px;
+            color: #fff;
+            font-family: $fontSecond;
+            border-radius: 3px;
+            background: #F939BF;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        a {
+            font-size: 14px;
+            color: #3F509E;
+            font-family: $fontSecond;
+            border-radius: 3px;
+            background: #FFF;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+    }
+
+    .recent {
+        .recentImg {
+            margin-bottom: 22px;
+            figure{
+                margin: 0;
+            }
+            .img-fluid{
+                height: 51px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .recentText {
+                span {
+
+                    &:nth-child(1) {
+                        font-size: 14px;
+                        font-family: $fontFirst;
+                        color: #3F509E;
+                    }
+                    &:nth-child(2) {
+                        font-size: 11px;
+                        font-family: $fontSecond;
+                        color: #8A8FB9;
+                    }
+
+
+                }
+            }
+        }
+    }
+    .offer{
+        grid-template-columns: auto auto;
+        display: grid;
+        text-align: center;
+        grid-gap: 10px;
+
+
+        .offerImg{
+            figure{
+                margin: 0;
+            }
+            h4{
+                font-size: 14px;
+                color: $textColor;
+                font-family: $fontSecond;
+            }
+            span{
+                color: #8A8FB9;
+                font-size: 12px;
+                font-family: $fontSecond;
+            }
+        }
+    }
+    .follow{
+        display: flex;
+        gap: 14px;
+        a{
+            width: 25px;
+            height: 25px;
+            background: #5625DF;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 180%;
+            &:nth-child(2){
+                background-color: #FF27B7;
+            }
+            &:nth-child(3){
+                background-color: #37DAF3;
+            }
+        }
+    }
+    .tags{
+        grid-template-columns: auto auto auto;
+        display: grid;
+        grid-gap: 12px 41px;
+        a{
+            font-size: 16px;
+            font-family: $fontSecond;
+            color: $textColor;
+            text-decoration: underline;
+            
+        }
+        .active{
+            color: #FB2E86;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@mixin mw1200 {
+  @media screen and (max-width: 1199.5px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 992.5px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 767.5px) {
+    @content;
+  }
+}
+
+@mixin midmobile {
+  @media screen and (max-width: 424px) {
+    @content;
+  }
+}
+
+@mixin smobile {
+  @media screen and (max-width: 374px) {
+    @content;
+  }
+}
