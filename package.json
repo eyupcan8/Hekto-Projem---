@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node ./build_script/build.js",
+    "build": "gulp build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ui-build": "gulp styles",
